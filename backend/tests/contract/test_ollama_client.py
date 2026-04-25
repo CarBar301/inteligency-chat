@@ -37,7 +37,7 @@ def test_maps_http_failure_to_unavailable_error():
 
     ollama = OllamaClient(
         base_url="http://localhost:11434",
-        model_name="llama3.1",
+        model_name="llama3.2:1b",
         timeout_seconds=1,
         http_client=client,
     )

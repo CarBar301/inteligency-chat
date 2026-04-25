@@ -327,7 +327,14 @@ pip install -r backend/requirements.txt
 uvicorn app.main:app --reload --app-dir backend
 ```
 
-### 4. Open the web UI
+### 4. Telegran Bot
+
+```bash
+source .venv/bin/activate
+python3 telegram_bot.py
+```
+
+### 5. Open the web UI
 
 Visit:
 

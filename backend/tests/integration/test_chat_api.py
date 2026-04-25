@@ -22,7 +22,7 @@ def _create_test_client(tmp_path, *, fail_llm: bool = False):
     settings = Settings(
         DATABASE_URL=f"sqlite:///{db_file}",
         OLLAMA_BASE_URL="http://localhost:11434",
-        OLLAMA_MODEL="llama3.1",
+        OLLAMA_MODEL="llama3.2:1b",
         OLLAMA_TIMEOUT_SECONDS=3,
     )
     app = create_app(settings=settings, llm_client=FakeLLM(fail=fail_llm))

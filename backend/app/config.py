@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./chat_roles.db"
     OLLAMA_BASE_URL: str = "http://localhost:11434"
-    OLLAMA_MODEL: str = "llama3.1"
+    OLLAMA_MODEL: str = "llama3.2:1b"
     OLLAMA_TIMEOUT_SECONDS: float = 30.0
 
     model_config = SettingsConfigDict(
