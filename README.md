@@ -426,3 +426,15 @@ but it does **not** pretend to be a finished multi-channel production platform y
 That is a strength, not a weakness.
 
 It means the foundation is being built correctly.
+
+
+
+### FOTOS DE DESARROLLO CORRIENDO 
+#### Telegram
+![alt text](image.png)
+#### Web
+![alt text](image-1.png)
+
+
+
+
